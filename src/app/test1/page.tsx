@@ -48,7 +48,7 @@ export default function Test1() {
         <BiLinkAlt className="text-3xl ml-1 text-white bg-gray-400 p-1 items-center rounded-full mt-3" />
       </button>
       {isCopied && (
-        <p className="bg-blue-200 drop-shadow-xl py-2 px-3 rounded-full">
+        <p className="bg-blue-200 drop-shadow-xl py-2 px-3 rounded-full fixed top-1/2 left-1/2">
           복사되었습니다.
         </p>
       )}

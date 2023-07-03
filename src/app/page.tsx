@@ -10,7 +10,8 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>아래 텍스트 클릭해서 이동하세요</h1>
+      <Link href="/test1">임시임 : 테스트 페이지로 이동</Link>
     </div>
   );
 }
