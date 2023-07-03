@@ -7,12 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      backgroundImage: {},
+      fontFamily: {
+        omyu: ['omyu_pretty'],
+        wanju: ['TTWanjudaedunsancheB'],
+        suite: ['SUITE-Regular'],
+        gmarket: ['GmarketSansMedium'],
+      },
+      colors: {
+        green2: '#98EECC',
+        green1: '#D0F5BE',
+        yellow1: '#FBFFDC',
+        bb: '#A4907C',
       },
     },
   },
   plugins: [],
-}
+};
